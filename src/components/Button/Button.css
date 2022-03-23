@@ -1,0 +1,18 @@
+.transition-colors {
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,-webkit-text-decoration-color;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+}
+
+.duration-200 {
+    transition-duration: .2s;
+}
+
+.text-gray-200 {
+    color: rgb(229,231,235);
+}
+
+.p-3 {
+    padding: 0.75rem;
+}
+
