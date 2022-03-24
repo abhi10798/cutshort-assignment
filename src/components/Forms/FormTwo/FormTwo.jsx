@@ -3,31 +3,31 @@ import Button from "../../Button/Button";
 import FormTitle from "../../FormTitle/FormTitle";
 import Input from "../../Input/Input";
 
-const TemplateOne = ({ onChange }) => {
+const FormTwo = ({ onChange }) => {
   return (
     <div>
       <div className=" mb-12">
         <FormTitle
-          title="Welcome! First things First..."
-          subTitle="You can always change them later."
+          title="Let's setup a home for all your work"
+          subTitle="You can always create another workspace later."
         />
       </div>
       <div className="p-4 md:p-0 md:max-w-[350px] w-full mx-auto">
         <Input
-          placeholder="Steve Jobs"
-          label="Full Name"
+          placeholder="Eden"
+          label="Workspace Name"
           labelHelper=""
           type="text"
           name="fullName"
           inputHelper=""
         />
         <Input
-          placeholder="Steve"
-          label="Display Name"
-          labelHelper=""
-          type="text"
+          placeholder="Example"
+          label="Workspace URL"
+          labelHelper="optional"
+          type="else"
           name="displayName"
-          inputHelper=""
+          inputHelper="www.eden.com/"
         />
         <Button
           text="Create Workspace"
@@ -39,4 +39,4 @@ const TemplateOne = ({ onChange }) => {
   );
 };
 
-export default TemplateOne
+export default FormTwo

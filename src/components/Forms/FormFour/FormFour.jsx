@@ -3,7 +3,7 @@ import Button from "../../Button/Button";
 import FormTitle from "../../FormTitle/FormTitle";
 import SuccessLogo from "../../SuccessLogo/SuccessLogo";
 
-const TemplateFour = ({ onChange }) => {
+const FormFour = ({ onChange }) => {
   return (
     <div>
       <div className="flex items-center justify-center mb-10">
@@ -22,4 +22,4 @@ const TemplateFour = ({ onChange }) => {
   );
 };
 
-export default TemplateFour
+export default FormFour

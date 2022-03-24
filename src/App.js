@@ -1,10 +1,10 @@
 import './App.css';
 import Header  from './components/Header/Header';
 import TimeLineBar from './components/TimelineBar/TimelineBar';
-import TemplateOne from './components/Templates/TemplateOne/TemplateOne';
-import TemplateTwo from './components/Templates/TemplateTwo/TemplateTwo';
-import TemplateThree from './components/Templates/TemplateThree/TemplateThree';
-import TemplateFour from './components/Templates/TemplateFour/TemplateFour';
+import FormOne from './components/Forms/FormOne/FormOne';
+import FormTwo from './components/Forms/FormTwo/FormTwo';
+import FormThree from './components/Forms/FormThree/FormThree';
+import FormFour from './components/Forms/FormFour/FormFour';
 
 import { useState } from 'react';
 
@@ -27,10 +27,10 @@ function App() {
           <main className="w-full">
             {
               {
-                1: <TemplateOne onChange={() => handleStepChange()} />,
-                2: <TemplateTwo onChange={() => handleStepChange()} />,
-                3: <TemplateThree onChange={() => handleStepChange()} />,
-                4: <TemplateFour onChange={() => handleStepChange()} />,
+                1: <FormOne onChange={() => handleStepChange()} />,
+                2: <FormTwo onChange={() => handleStepChange()} />,
+                3: <FormThree onChange={() => handleStepChange()} />,
+                4: <FormFour onChange={() => handleStepChange()} />,
               }[steps.toString()]
             }
           </main>

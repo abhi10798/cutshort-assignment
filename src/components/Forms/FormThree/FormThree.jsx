@@ -3,7 +3,7 @@ import Button from "../../Button/Button";
 import SelectedCard from "../../SelectedCard/SelectedCard";
 import FormTitle from "../../FormTitle/FormTitle";
 
-const TemplateThree = ({ onChange }) => {
+const FormThree = ({ onChange }) => {
   return (
     <div>
       <div className=" mb-12">
@@ -24,4 +24,4 @@ const TemplateThree = ({ onChange }) => {
   );
 };
 
-export default TemplateThree
+export default FormThree
